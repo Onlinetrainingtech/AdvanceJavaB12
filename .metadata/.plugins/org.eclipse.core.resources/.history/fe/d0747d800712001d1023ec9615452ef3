@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="loginServlet1" method="get">
+UserName:<input type="text" name="uname"/>
+Passwprd:<input type="text" name="pass"/>
+</form>
+</body>
+</html>
