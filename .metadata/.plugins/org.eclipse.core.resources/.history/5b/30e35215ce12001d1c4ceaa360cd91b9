@@ -32,8 +32,6 @@ public class loginServlet1 extends HttpServlet {
 		}
 		else
 		{
-			RequestDispatcher rd=req.getRequestDispatcher("error.html");
-			rd.include(req, resp);
 			//out.println("LoginFail!!!");
 		}
 		

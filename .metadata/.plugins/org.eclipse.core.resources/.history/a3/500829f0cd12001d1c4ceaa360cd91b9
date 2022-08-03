@@ -3,7 +3,6 @@
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -27,13 +26,9 @@ public class loginServlet1 extends HttpServlet {
 		if(u1.equals("admin")&&p1.equals("admin@123"))
 		{
 			//out.println("LoginSucess!!");
-			RequestDispatcher rd=req.getRequestDispatcher("LoginHome.html");
-			rd.forward(req, resp);
 		}
 		else
 		{
-			RequestDispatcher rd=req.getRequestDispatcher("error.html");
-			rd.include(req, resp);
 			//out.println("LoginFail!!!");
 		}
 		
