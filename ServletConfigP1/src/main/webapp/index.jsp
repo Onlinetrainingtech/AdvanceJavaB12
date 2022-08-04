@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,9 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="loginServlet1" method="get">
-UserName:<input type="text" name="uname"/>
-Passwprd:<input type="text" name="pass"/>
+<form action="Servlet1" method="get">
 <input type="submit" value="Login"/>
 </form>
 </body>
