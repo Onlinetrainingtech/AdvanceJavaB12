@@ -22,4 +22,7 @@
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="str.Customers"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.xyz.springdemo.BaseballCoach"/>
+    <fullyQualifiedTypeName name="com.xyz.springdemo.TrackCoach"/>
+    <fullyQualifiedTypeName name="com.xyz.springdemo.TrackerCoach"/>
 </qualifiedTypeNameHistroy>
